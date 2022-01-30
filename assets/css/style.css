@@ -1,0 +1,250 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body{
+    background: url('../image/puzzle.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family:sans-serif;
+    padding: 30px;
+}
+h1{
+    color: #b3282a;
+    font-weight: 900;
+    background-color: white;
+    margin: 10px;
+    margin-bottom: 1px;
+    padding: 5px;
+}
+.info {
+    text-align: center;
+    padding: 6px;
+    margin: -25px;
+    background: rgb(255 255 255 / 42%);
+}
+.menu{
+    margin: 9px;
+    border: none;
+    background: red;
+    padding: 1px;
+    outline: none;
+    color: rgb(0, 0, 0);
+}
+.menu:hover{
+    background: rgb(139, 21, 21);
+    color: white;
+}
+.object-list{
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 247px;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 5px;
+    font-weight: 700;
+}
+.object-list-two{
+    position: absolute;
+    bottom: 47px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 247px;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 5px;
+    font-weight: 700;
+}
+p{
+    padding: 5px;
+}
+#star{
+    position: absolute;
+    top: 161px;
+    right: 84px;
+}
+#star img{
+    width: 50px;
+    height: 50px;
+}
+#tennisBall{
+    position: absolute;
+    top: 394px;
+    right: 24px;
+}
+#tennisBall img{
+    width: 30px;
+    height: 30px;
+}
+#rose{
+    position: absolute;
+    top: 282px;
+    left: 124px;
+}
+#rose img{
+    width: 70px;
+    height: 80px;
+}
+#apple{
+    position: absolute;
+    top: 149px;
+    right: 178px;
+}
+#apple img{
+    width: 30px;
+    height: 30px;
+}
+#newspaper{
+    position: absolute;
+    top: 204px;
+    right: 24px;
+}
+#newspaper img{
+    width: 30px;
+    height: 30px;
+}
+#panda{
+    position: absolute;
+    top: 435px;
+    right: 26px;
+}
+#panda img{
+    width: 112px;
+    height: 57px;
+}
+#hat{
+    position: absolute;
+    top: 304px;
+    left: 24px;
+}
+#hat img{
+    width: 50px;
+    height: 30px;
+}
+#dog{
+    position: absolute;
+    top: 491px;
+    left: 24px;
+}
+#dog img{
+    width: 150px;
+    height: 130px;
+}
+.bg{
+    background: url('../image/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.btn{
+    margin: 0 auto;
+    padding: 12px;
+    background: red;
+    width: 123px;
+    text-align: center;
+}
+input{
+    margin: 12px;
+    background: #cd8686;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 900;
+  }
+  .box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+            padding: 105px;
+            margin: 12px;
+  }
+  .button-29 {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-image: -o-radial-gradient(100% 0, 100% 100%, #b3b3b3 0, #b33e64 100%);
+    background-image: radial-gradient(100% 100% at 100% 0, #b3b3b3 0, #b33e64 100%);
+    background-image: radial-gradient(100% 100% at 100% 0, #b3b3b3 0, #b33e64 100%);
+    border: 0;
+    font-weight: 900;
+    outline: none;
+    border-radius: 6px;
+    margin: 5px;
+    -webkit-box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+            box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    -webkit-transition: -webkit-box-shadow .15s,-webkit-transform .15s;
+    transition: -webkit-box-shadow .15s,-webkit-transform .15s;
+    -o-transition: box-shadow .15s,transform .15s;
+    transition: box-shadow .15s,transform .15s;
+    transition: box-shadow .15s,transform .15s,-webkit-box-shadow .15s,-webkit-transform .15s;
+    -moz-user-select: none;
+     -ms-user-select: none;
+         user-select: none;
+    -webkit-user-select: none;
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 16px;
+  }
+  .button-29:focus {
+    -webkit-box-shadow: #ca124a 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #a3181f 0 -3px 0 inset;
+            box-shadow: #c2062f 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #611717 0 -3px 0 inset;
+  }
+  .button-29:hover {
+    -webkit-box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #c00333 0 -3px 0 inset;
+            box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #c20020 0 -3px 0 inset;
+    -webkit-transform: translateY(-2px);
+        -ms-transform: translateY(-2px);
+            transform: translateY(-2px);
+  }
+  .button-29:active {
+    -webkit-box-shadow: #be1a43 0 3px 7px inset;
+            box-shadow: #911111 0 3px 7px inset;
+    -webkit-transform: translateY(2px);
+        -ms-transform: translateY(2px);
+            transform: translateY(2px);
+  }
